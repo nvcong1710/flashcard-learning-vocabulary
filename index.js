@@ -1,10 +1,9 @@
-const dataFile = "data.json";
-
 async function fetchData() {
   try {
-    const response = await fetch(dataFile);
-    const data = await response.json();
-    return data;
+    const storedData = localStorage.getItem("vocabularyData");
+    if (storedData) {
+      return JSON.parse(storedData);
+    }
   } catch (error) {
     console.error("Error loading data:", error);
     return [];

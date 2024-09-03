@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Vocabulary to Local Storage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button
+      onclick="navigateToFlashCardPage()"
+      style="background-color: brown; margin-bottom: 20px"
+    >
+      Đi đến trang tạo flash-card
+    </button>
+    <form id="vocabularyForm">
+      <div style="display: flex">
+        <input type="text" id="word" placeholder="Word" required />
+        <input type="text" id="meaning" placeholder="Meaning" required />
+      </div>
+
+      <textarea id="example" placeholder="Example" rows="4" required></textarea>
+      <button type="submit">Thêm</button>
+    </form>
+    <div id="status"></div>
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <th>
+            Copy->paste dữ liệu bảng vào đây (từ tiếng anh - nghĩa - ví dụ)
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td contenteditable="true" style="height: 100px"></td>
+          <td contenteditable="true" style="display: none"></td>
+          <td contenteditable="true" style="display: none"></td>
+        </tr>
+      </tbody>
+    </table>
+    <button onclick="generateJSON()">Thêm</button>
+    <table id="vocabularyTable">
+      <thead>
+        <tr>
+          <th>Word</th>
+          <th>Meaning</th>
+          <th>Example</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+
+    <script>
+      function generateJSON() {
+        const table = document.getElementById("dataTable");
+        const rows = table.querySelectorAll("tbody tr");
+        const newData = [];
+
+        rows.forEach((row) => {
+          const word = row.cells[0].innerText.trim();
+          const meaning = row.cells[1].innerText.trim();
+          const example = row.cells[2].innerText.trim();
+
+          if (word && meaning && example) {
+            newData.push({
+              word: word,
+              meaning: meaning,
+              example: example,
+            });
+          }
+        });
+
+        const existingData =
+          JSON.parse(localStorage.getItem("vocabularyData")) || [];
+
+        const combinedData = [...existingData, ...newData];
+
+        localStorage.setItem("vocabularyData", JSON.stringify(combinedData));
+
+        loadVocabulary();
+      }
+
+      function addWord(event) {
+        event.preventDefault();
+
+        const word = document.getElementById("word").value.trim();
+        const meaning = document.getElementById("meaning").value.trim();
+        const example = document.getElementById("example").value.trim();
+
+        if (!word || !meaning || !example) {
+          alert("Please fill in all fields.");
+          return;
+        }
+
+        const newWord = { word, meaning, example };
+        const vocabularyData =
+          JSON.parse(localStorage.getItem("vocabularyData")) || [];
+
+        vocabularyData.push(newWord);
+
+        localStorage.setItem("vocabularyData", JSON.stringify(vocabularyData));
+
+        document.getElementById("status").innerText =
+          "Word added successfully!";
+        document.getElementById("vocabularyForm").reset();
+
+        loadVocabulary();
+      }
+
+      function deleteWord(index) {
+        const vocabularyData =
+          JSON.parse(localStorage.getItem("vocabularyData")) || [];
+        vocabularyData.splice(index, 1);
+
+        localStorage.setItem("vocabularyData", JSON.stringify(vocabularyData));
+        loadVocabulary();
+      }
+
+      function loadVocabulary() {
+        const vocabularyData =
+          JSON.parse(localStorage.getItem("vocabularyData")) || [];
+        const tableBody = document.getElementById("tableBody");
+
+        tableBody.innerHTML = "";
+
+        vocabularyData.forEach((entry, index) => {
+          const row = document.createElement("tr");
+
+          row.innerHTML = `
+              <td>${entry.word}</td>
+              <td>${entry.meaning}</td>
+              <td>${entry.example}</td>
+              <td><button class="delete-btn" onclick="deleteWord(${index})">Delete</button></td>
+            `;
+
+          tableBody.appendChild(row);
+        });
+      }
+
+      document
+        .getElementById("vocabularyForm")
+        .addEventListener("submit", addWord);
+
+      document.addEventListener("DOMContentLoaded", loadVocabulary);
+
+      function navigateToFlashCardPage() {
+        window.location.href = "index.html";
+      }
+    </script>
+  </body>
+</html>
