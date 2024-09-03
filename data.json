@@ -1,0 +1,908 @@
+[
+  {
+    "id": 1,
+    "word": "prototype",
+    "meaning": "(n) nguyên mẫu",
+    "example": "The feature is an internal prototype and is not being tested externally."
+  },
+  {
+    "id": 2,
+    "word": "prototypical",
+    "meaning": "(adj) mang tính nguyên mẫu",
+    "example": "This is a prototypical example of modern architecture."
+  },
+  {
+    "id": 3,
+    "word": "build-in feature",
+    "meaning": "tính năng tích hợp",
+    "example": "This app has many build-in features."
+  },
+  {
+    "id": 4,
+    "word": "indicate",
+    "meaning": "chỉ ra",
+    "example": "The dark clouds indicate that it may rain soon."
+  },
+  {
+    "id": 5,
+    "word": "preside",
+    "meaning": "(v) chủ trì",
+    "example": "He presides over the meeting with his fairness."
+  },
+  {
+    "id": 6,
+    "word": "operation",
+    "meaning": "(n) mổ",
+    "example": "He had an operation on his abdomen."
+  },
+  {
+    "id": 7,
+    "word": "abdomen",
+    "meaning": "(n) bụng",
+    "example": "He had pain in his abdomen."
+  },
+  {
+    "id": 8,
+    "word": "bronchitis",
+    "meaning": "(n) viêm phế quản",
+    "example": "He was hospitalized with bronchitis."
+  },
+  {
+    "id": 9,
+    "word": "bouts of bronchitis",
+    "meaning": "(n) cơn viêm phế quản",
+    "example": "He had several bouts of bronchitis last year."
+  },
+  {
+    "id": 10,
+    "word": "bouts of cough",
+    "meaning": "(n) cơn ho",
+    "example": "He suffered from bouts of cough."
+  },
+  {
+    "id": 11,
+    "word": "aid",
+    "meaning": "(v) giúp đỡ/viện trợ",
+    "example": "The organization aids the poor."
+  },
+  {
+    "id": "12",
+    "word": "aide (n)",
+    "meaning": "phụ tá",
+    "example": "He relies on his aides for assistance."
+  },
+  {
+    "id": "13",
+    "word": "counsel",
+    "meaning": "lời khuyên/ sự tư vấn",
+    "example": "He listened to the counselor."
+  },
+  {
+    "id": "14",
+    "word": "counselor",
+    "meaning": "cố vấn",
+    "example": "The counselor gave him good advice."
+  },
+  {
+    "id": "15",
+    "word": "conservation (n)",
+    "meaning": "sự bảo tồn",
+    "example": "Conservation efforts are important."
+  },
+  {
+    "id": "16",
+    "word": "conservative (adj)",
+    "meaning": "bảo thủ",
+    "example": "His conservative views are well-known."
+  },
+  {
+    "id": "17",
+    "word": "conservativeness (n)",
+    "meaning": "sự bảo thủ/sự thận trọng",
+    "example": "His conservativeness affects his decisions."
+  },
+  {
+    "id": "18",
+    "word": "outrage",
+    "meaning": "làm nhục, sự sỉ nhục",
+    "example": "The decision caused outrage among the citizens."
+  },
+  {
+    "id": "19",
+    "word": "outrageous",
+    "meaning": "quá đáng, đáng phẫn nộ",
+    "example": "It is outrageous to treat people this way."
+  },
+  {
+    "id": "20",
+    "word": "civil",
+    "meaning": "dân sự",
+    "example": "The civil rights movement was significant."
+  },
+  {
+    "id": "21",
+    "word": "civilian",
+    "meaning": "thường dân",
+    "example": "The bomb killed several civilians."
+  },
+  {
+    "id": "22",
+    "word": "civilization (n)",
+    "meaning": "nền văn minh",
+    "example": "Ancient civilization has many mysteries."
+  },
+  {
+    "id": "23",
+    "word": "relent",
+    "meaning": "dịu đi/hài lòng",
+    "example": "Her parents eventually relented."
+  },
+  {
+    "id": "24",
+    "word": "relentless (adj)",
+    "meaning": "không ngừng",
+    "example": "His relentless efforts paid off."
+  },
+  {
+    "id": "25",
+    "word": "inquiry about/into",
+    "meaning": "điều tra, tìm hiểu về…",
+    "example": "I've made inquiries about the cost."
+  },
+  {
+    "id": "26",
+    "word": "skyscraper",
+    "meaning": "toà nhà chọc trời",
+    "example": "The city is full of skyscrapers."
+  },
+  {
+    "id": "27",
+    "word": "withstand",
+    "meaning": "chống cự",
+    "example": "The building can withstand earthquakes."
+  },
+  {
+    "id": "28",
+    "word": "sway",
+    "meaning": "lắc lư",
+    "example": "The trees sway in the wind."
+  },
+  {
+    "id": "29",
+    "word": "lawsuit",
+    "meaning": "vụ kiện",
+    "example": "He filed a lawsuit against the company."
+  },
+  {
+    "id": "30",
+    "word": "defense the lawsuit",
+    "meaning": "bào chữa cho vụ kiện",
+    "example": "His lawyer will defend the lawsuit."
+  },
+  {
+    "id": "31",
+    "word": "file a lawsuit",
+    "meaning": "gửi đơn kiện",
+    "example": "She filed a lawsuit for damages."
+  },
+  {
+    "id": "32",
+    "word": "grape",
+    "meaning": "quả nho",
+    "example": "Grapes are my favorite fruit."
+  },
+  {
+    "id": "33",
+    "word": "grapefruit",
+    "meaning": "quả bưởi",
+    "example": "I had a grapefruit for breakfast."
+  },
+  {
+    "id": "34",
+    "word": "tangerine",
+    "meaning": "quả quýt",
+    "example": "Tangerines are sweet and juicy."
+  },
+  {
+    "id": "35",
+    "word": "deceive (v)",
+    "meaning": "lừa dối",
+    "example": "He tried to deceive me."
+  },
+  {
+    "id": "36",
+    "word": "deception (n)",
+    "meaning": "sự lừa dối",
+    "example": "His deception was discovered."
+  },
+  {
+    "id": "37",
+    "word": "deceitful (adj)",
+    "meaning": "gian dối",
+    "example": "He is a deceitful person."
+  },
+  {
+    "id": "38",
+    "word": "Deceptive practices",
+    "meaning": "hành vi lừa đảo",
+    "example": "The company was accused of deceptive practices."
+  },
+  {
+    "id": "39",
+    "word": "Entitle (v)",
+    "meaning": "được phép, có quyền",
+    "example": "The new law entitles citizens to free healthcare."
+  },
+  {
+    "id": "40",
+    "word": "Entitlement (n)",
+    "meaning": "quyền lợi",
+    "example": "Citizens have entitlements under the new law."
+  },
+  {
+    "id": "41",
+    "word": "Cattle",
+    "meaning": "gia súc",
+    "example": "The cattle were grazing in the field."
+  },
+  {
+    "id": "42",
+    "word": "poultry",
+    "meaning": "gia cầm",
+    "example": "The farm has a lot of poultry."
+  },
+  {
+    "id": "43",
+    "word": "edge",
+    "meaning": "phần rìa, góc",
+    "example": "He sat on the edge of the bed."
+  },
+  {
+    "id": "44",
+    "word": "Flicker",
+    "meaning": "nhấp nháy",
+    "example": "The flickering light was distracting."
+  },
+  {
+    "id": "45",
+    "word": "contend (n)",
+    "meaning": "sự cạnh tranh",
+    "example": "There is a lot of contention in the market."
+  },
+  {
+    "id": "46",
+    "word": "contend (v)",
+    "meaning": "khẳng định/tranh luận",
+    "example": "Scientists contend that climate change is real."
+  },
+  {
+    "id": "47",
+    "word": "contend with",
+    "meaning": "đối mặt",
+    "example": "He contends with many challenges."
+  },
+  {
+    "id": "48",
+    "word": "cramped",
+    "meaning": "chật chội",
+    "example": "The room was small and cramped."
+  },
+  {
+    "id": "49",
+    "word": "bunk",
+    "meaning": "giường tầng",
+    "example": "The kids love their bunk beds."
+  },
+  {
+    "id": "50",
+    "word": "stun in",
+    "meaning": "làm choáng váng",
+    "example": "The news stunned everyone."
+  },
+  {
+    "id": "51",
+    "word": "enthus",
+    "meaning": "nhiệt tình",
+    "example": "He is very enthused about the project."
+  },
+  {
+    "id": "52",
+    "word": "enthusiast",
+    "meaning": "tín đồ, người hâm mộ",
+    "example": "He is a car enthusiast."
+  },
+  {
+    "id": "53",
+    "word": "enthusiastic",
+    "meaning": "nhiệt tình, hăng hái",
+    "example": "She is an enthusiastic teacher."
+  },
+  {
+    "id": "54",
+    "word": "shed (n)",
+    "meaning": "cái chuồng/cái kho nhỏ",
+    "example": "The farmer built a shed for his tools."
+  },
+  {
+    "id": "55",
+    "word": "shed (v) = get rid of",
+    "meaning": "lột, tháo",
+    "example": "The snake sheds its skin annually."
+  },
+  {
+    "id": "56",
+    "word": "shed (v) = fall off",
+    "meaning": "rụng (lông/lá), rơi",
+    "example": "The trees shed their leaves in autumn."
+  },
+  {
+    "id": "57",
+    "word": "tend (n)",
+    "meaning": "lều cắm trại",
+    "example": "They set up a tend near the lake."
+  },
+  {
+    "id": "58",
+    "word": "shack (n)",
+    "meaning": "túp lều gỗ",
+    "example": "The old shack was falling apart."
+  },
+  {
+    "id": "59",
+    "word": "hut (n)",
+    "meaning": "nhà tranh, nhà lá",
+    "example": "The villagers lived in small huts."
+  },
+  {
+    "id": "60",
+    "word": "parade",
+    "meaning": "diễu hành",
+    "example": "The parade attracted a large crowd."
+  },
+  {
+    "id": "61",
+    "word": "pauper",
+    "meaning": "ăn xin",
+    "example": "He lived like a pauper."
+  },
+  {
+    "id": "62",
+    "word": "consume",
+    "meaning": "tiêu thụ",
+    "example": "She consumes a lot of coffee."
+  },
+  {
+    "id": "63",
+    "word": "consumption",
+    "meaning": "sự tiêu thụ",
+    "example": "The consumption of alcohol has increased."
+  },
+  {
+    "id": "64",
+    "word": "fillers",
+    "meaning": "chất độn/ miếng độn",
+    "example": "The product contains no fillers."
+  },
+  {
+    "id": "65",
+    "word": "enhance",
+    "meaning": "nâng cao",
+    "example": "The software enhances productivity."
+  },
+  {
+    "id": "66",
+    "word": "flavor enhancers",
+    "meaning": "chất tạo vị",
+    "example": "Avoid using artificial flavor enhancers."
+  },
+  {
+    "id": "67",
+    "word": "admission",
+    "meaning": "sự nhận vào/sự tuyển sinh",
+    "example": "Admission to the university is competitive."
+  },
+  {
+    "id": "68",
+    "word": "proficiency",
+    "meaning": "năng lực, trình độ",
+    "example": "She has high proficiency in English."
+  },
+  {
+    "id": "69",
+    "word": "evaluate",
+    "meaning": "đánh giá",
+    "example": "The teacher will evaluate the students' performance."
+  },
+  {
+    "id": "70",
+    "word": "humble",
+    "meaning": "khiêm tốn/ít",
+    "example": "They live a humble life."
+  },
+  {
+    "id": "71",
+    "word": "fertilize",
+    "meaning": "bón phân/thúc đẩy",
+    "example": "Farmers fertilize their crops."
+  },
+  {
+    "id": "72",
+    "word": "pavement",
+    "meaning": "vỉa hè",
+    "example": "The pavement is cracked."
+  },
+  {
+    "id": "73",
+    "word": "stumble",
+    "meaning": "vấp ngã",
+    "example": "He stumbled and fell."
+  },
+  {
+    "id": "74",
+    "word": "stumble upon/across/on",
+    "meaning": "tình cờ phát hiện",
+    "example": "She stumbled upon an old photo album."
+  },
+  {
+    "id": "75",
+    "word": "flock",
+    "meaning": "bầy, đàn",
+    "example": "A flock of birds flew by."
+  },
+  {
+    "id": "76",
+    "word": "drainage",
+    "meaning": "thoát nước",
+    "example": "The drainage system works well."
+  },
+  {
+    "id": "77",
+    "word": "basin",
+    "meaning": "lòng chảo",
+    "example": "The basin collects rainwater."
+  },
+  {
+    "id": "78",
+    "word": "comprehensive",
+    "meaning": "toàn diện",
+    "example": "We need a comprehensive solution."
+  },
+  {
+    "id": "79",
+    "word": "manhole",
+    "meaning": "hố ga",
+    "example": "He almost fell into the manhole."
+  },
+  {
+    "id": "80",
+    "word": "hilly terrain",
+    "meaning": "địa hình đồi núi",
+    "example": "The hilly terrain is difficult to navigate."
+  },
+  {
+    "id": "81",
+    "word": "altitude",
+    "meaning": "độ cao",
+    "example": "The airplane reached a high altitude."
+  },
+  {
+    "id": "82",
+    "word": "vary",
+    "meaning": "thay đổi",
+    "example": "The prices vary depending on the season."
+  },
+  {
+    "id": "83",
+    "word": "impede = hinder",
+    "meaning": "cản trở",
+    "example": "The construction impedes traffic."
+  },
+  {
+    "id": "84",
+    "word": "dense",
+    "meaning": "dày đặc",
+    "example": "The forest is dense with trees."
+  },
+  {
+    "id": "85",
+    "word": "impact in",
+    "meaning": "tác động vào",
+    "example": "The policy had a significant impact."
+  },
+  {
+    "id": "86",
+    "word": "institution",
+    "meaning": "thể chế/tổ chức",
+    "example": "The institution offers various programs."
+  },
+  {
+    "id": "87",
+    "word": "education institution",
+    "meaning": "tổ chức giáo dục",
+    "example": "She works at an education institution."
+  },
+  {
+    "id": "88",
+    "word": "aspect of",
+    "meaning": "khía cạnh của",
+    "example": "We discussed various aspects of the problem."
+  },
+  {
+    "id": "89",
+    "word": "restrict",
+    "meaning": "hạn chế",
+    "example": "The new law restricts smoking in public places."
+  },
+  {
+    "id": "90",
+    "word": "comprehensive",
+    "meaning": "toàn diện",
+    "example": "We need a comprehensive approach."
+  },
+  {
+    "id": "91",
+    "word": "particular",
+    "meaning": "cụ thể",
+    "example": "He has a particular interest in history."
+  },
+  {
+    "id": "92",
+    "word": "malicious",
+    "meaning": "ác ý",
+    "example": "The virus is malicious."
+  },
+  {
+    "id": "93",
+    "word": "mechanism",
+    "meaning": "cơ chế",
+    "example": "The mechanism is complex."
+  },
+  {
+    "id": "94",
+    "word": "assumed to",
+    "meaning": "giả định",
+    "example": "He is assumed to be guilty."
+  },
+  {
+    "id": "95",
+    "word": "expose",
+    "meaning": "phơi bày",
+    "example": "The scandal exposed corruption."
+  },
+  {
+    "id": "96",
+    "word": "figure out",
+    "meaning": "tìm ra",
+    "example": "Can you figure out the answer?"
+  },
+  {
+    "id": "97",
+    "word": "mitigate",
+    "meaning": "giảm nhẹ",
+    "example": "Measures were taken to mitigate the impact."
+  },
+  {
+    "id": "98",
+    "word": "leverage",
+    "meaning": "đòn bẩy",
+    "example": "He used his connections to leverage a better deal."
+  },
+  {
+    "id": "99",
+    "word": "intensive",
+    "meaning": "chuyên sâu",
+    "example": "She is taking an intensive course."
+  },
+  {
+    "id": "100",
+    "word": "lucrative",
+    "meaning": "sinh lời",
+    "example": "The business is very lucrative."
+  },
+  {
+    "id": "101",
+    "word": "prestigious",
+    "meaning": "uy tín",
+    "example": "He graduated from a prestigious university."
+  },
+  {
+    "id": "102",
+    "word": "irrational",
+    "meaning": "phi lý",
+    "example": "His fears are irrational."
+  },
+  {
+    "id": "103",
+    "word": "rational",
+    "meaning": "hợp lý",
+    "example": "She made a rational decision."
+  },
+  {
+    "id": "104",
+    "word": "compromise",
+    "meaning": "thỏa hiệp",
+    "example": "They reached a compromise."
+  },
+  {
+    "id": "105",
+    "word": "leap into",
+    "meaning": "nhảy vào",
+    "example": "He leaped into action."
+  },
+  {
+    "id": "106",
+    "word": "tuition reimbursement",
+    "meaning": "hoàn trả học phí",
+    "example": "The company offers tuition reimbursement."
+  },
+  {
+    "id": "107",
+    "word": "bedlam",
+    "meaning": "hỗn loạn",
+    "example": "The classroom was in bedlam."
+  },
+  {
+    "id": "108",
+    "word": "tremendous",
+    "meaning": "to lớn",
+    "example": "The project was a tremendous success."
+  },
+  {
+    "id": "109",
+    "word": "hook on",
+    "meaning": "mắc vào",
+    "example": "He is hooked on video games."
+  },
+  {
+    "id": "110",
+    "word": "upromise",
+    "meaning": "lời hứa",
+    "example": "He made a promise to always be there."
+  },
+  {
+    "id": "111",
+    "word": "venture",
+    "meaning": "mạo hiểm",
+    "example": "He ventured into the unknown."
+  },
+  {
+    "id": "112",
+    "word": "entrepreneurship",
+    "meaning": "tinh thần khởi nghiệp",
+    "example": "She is studying entrepreneurship."
+  },
+  {
+    "id": "113",
+    "word": "immerse",
+    "meaning": "đắm chìm",
+    "example": "He immersed himself in his work."
+  },
+  {
+    "id": "114",
+    "word": "embarking",
+    "meaning": "bắt tay vào",
+    "example": "They are embarking on a new project."
+  },
+  {
+    "id": "115",
+    "word": "murky",
+    "meaning": "tối tăm",
+    "example": "The water was murky."
+  },
+  {
+    "id": "116",
+    "word": "exploit",
+    "meaning": "khai thác",
+    "example": "The company exploits natural resources."
+  },
+  {
+    "id": "117",
+    "word": "intrigue",
+    "meaning": "hấp dẫn",
+    "example": "The story intrigues me."
+  },
+  {
+    "id": "118",
+    "word": "holistic",
+    "meaning": "toàn diện",
+    "example": "They take a holistic approach to health."
+  },
+  {
+    "id": "119",
+    "word": "coach",
+    "meaning": "huấn luyện viên",
+    "example": "The coach gave good advice."
+  },
+  {
+    "id": "120",
+    "word": "scratch",
+    "meaning": "cào/xước",
+    "example": "The cat scratched the furniture."
+  },
+  {
+    "id": "121",
+    "word": "mature",
+    "meaning": "trưởng thành",
+    "example": "He is very mature for his age."
+  },
+  {
+    "id": "122",
+    "word": "absorb",
+    "meaning": "hấp thụ",
+    "example": "Plants absorb sunlight."
+  },
+  {
+    "id": "123",
+    "word": "aggregate",
+    "meaning": "tổng hợp",
+    "example": "The data was aggregated for analysis."
+  },
+  {
+    "id": "124",
+    "word": "struck",
+    "meaning": "tấn công/đánh",
+    "example": "The lightning struck a tree."
+  },
+  {
+    "id": "125",
+    "word": "theorem",
+    "meaning": "định lý",
+    "example": "He proved the theorem."
+  },
+  {
+    "id": "126",
+    "word": "hustle",
+    "meaning": "hối hả",
+    "example": "He is always hustling at work."
+  },
+  {
+    "id": "127",
+    "word": "sacrificing",
+    "meaning": "hy sinh",
+    "example": "She sacrificed her time for the project."
+  },
+  {
+    "id": "128",
+    "word": "advocate",
+    "meaning": "người ủng hộ",
+    "example": "He is an advocate for human rights."
+  },
+  {
+    "id": "129",
+    "word": "hesitant",
+    "meaning": "do dự",
+    "example": "She was hesitant to answer."
+  },
+  {
+    "id": "130",
+    "word": "iterating",
+    "meaning": "lặp lại",
+    "example": "They are iterating the design."
+  },
+  {
+    "id": "131",
+    "word": "impact",
+    "meaning": "tác động",
+    "example": "The impact was significant."
+  },
+  {
+    "id": "132",
+    "word": "stage",
+    "meaning": "giai đoạn",
+    "example": "They are in the final stage of the project."
+  },
+  {
+    "id": "133",
+    "word": "embrace by",
+    "meaning": "đón nhận bởi",
+    "example": "The idea was embraced by the team."
+  },
+  {
+    "id": "134",
+    "word": "threshold",
+    "meaning": "ngưỡng cửa",
+    "example": "They are on the threshold of a new era."
+  },
+  {
+    "id": "135",
+    "word": "distinguish",
+    "meaning": "phân biệt",
+    "example": "Can you distinguish between the two?"
+  },
+  {
+    "id": "136",
+    "word": "ambition",
+    "meaning": "tham vọng",
+    "example": "He has a lot of ambition."
+  },
+  {
+    "id": "137",
+    "word": "eliminate",
+    "meaning": "loại bỏ",
+    "example": "They want to eliminate waste."
+  },
+  {
+    "id": "138",
+    "word": "fluid",
+    "meaning": "chất lỏng",
+    "example": "The fluid flows easily."
+  },
+  {
+    "id": "139",
+    "word": "friction",
+    "meaning": "ma sát",
+    "example": "There is a lot of friction between the teams."
+  },
+  {
+    "id": "140",
+    "word": "rigidity",
+    "meaning": "sự cứng nhắc",
+    "example": "The rigidity of the rules is a problem."
+  },
+  {
+    "id": "141",
+    "word": "relevant",
+    "meaning": "liên quan",
+    "example": "The information is relevant to the case."
+  },
+  {
+    "id": "142",
+    "word": "frequently",
+    "meaning": "thường xuyên",
+    "example": "She visits frequently."
+  },
+  {
+    "id": "143",
+    "word": "accrue",
+    "meaning": "tích lũy",
+    "example": "Benefits accrue over time."
+  },
+  {
+    "id": "144",
+    "word": "Ingenuity (n)",
+    "meaning": "sự khéo léo, tài năng sáng tạo",
+    "example": "Her ingenuity was evident in her problem-solving skills."
+  },
+  {
+    "id": "145",
+    "word": "Testament (n)",
+    "meaning": "bằng chứng, minh chứng",
+    "example": "The success of the project is a testament to their hard work."
+  },
+  {
+    "id": "146",
+    "word": "Towering (adj)",
+    "meaning": "cao vút, sừng sững",
+    "example": "The towering skyscrapers dominate the city's skyline."
+  },
+  {
+    "id": "147",
+    "word": "Iconic (adj)",
+    "meaning": "mang tính biểu tượng",
+    "example": "The Eiffel Tower is an iconic landmark in Paris."
+  },
+  {
+    "id": "148",
+    "word": "Futuristic (adj)",
+    "meaning": "thuộc về tương lai, hiện đại",
+    "example": "The new building has a futuristic design."
+  },
+  {
+    "id": "149",
+    "word": "Vertical (adj)",
+    "meaning": "thẳng đứng",
+    "example": "The building has a vertical garden."
+  },
+  {
+    "id": "150",
+    "word": "Redefining (v)",
+    "meaning": "định nghĩa lại",
+    "example": "The company is redefining the concept of customer service."
+  },
+  {
+    "id": "151",
+    "word": "Skyline (n)",
+    "meaning": "đường chân trời",
+    "example": "The city's skyline is breathtaking at night."
+  }
+]

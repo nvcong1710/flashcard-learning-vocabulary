@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flash Card Vocabulary</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button onclick="navigateToGenerateJson()">Go to Generate JSON Page</button>
+
+    <div class="flash-card" onclick="toggleFlip()">
+      <div class="card-inner">
+        <div class="card-front">
+          <p id="word"></p>
+        </div>
+        <div class="card-back">
+          <p
+            style="color: aqua; font-weight: bold; padding-bottom: 0; margin: 0"
+          >
+            Meaning:
+          </p>
+          <p id="meaning"></p>
+          <p
+            style="color: aqua; font-weight: bold; padding-bottom: 0; margin: 0"
+          >
+            Ex:
+          </p>
+          <p id="example"></p>
+        </div>
+      </div>
+    </div>
+    <button onclick="displayRandomWord()">Hiển thị từ ngẫu nhiên</button>
+
+    <script src="index.js"></script>
+    <script>
+      function navigateToGenerateJson() {
+        window.location.href = "generateJson.html";
+      }
+    </script>
+  </body>
+</html>
