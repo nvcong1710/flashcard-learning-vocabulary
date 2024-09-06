@@ -5,10 +5,15 @@ body {
   flex-direction: column;
   height: 100vh;
   background-color: #84b681;
-  font-family: Arial, sans-serif;
+  font-family: "Patrick Hand", cursive;
   width: 400px;
   margin: auto;
   font-size: 1.1rem;
+}
+
+#word {
+  font-weight: bold;
+  font-size: larger;
 }
 
 .flash-card {
@@ -40,7 +45,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 1.2em;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 8px 8px 0px rgb(214, 255, 8);
   border-radius: 8px;
 }
 
@@ -72,6 +77,7 @@ button {
   border: none;
   border-radius: 5px;
   margin: 10px 0;
+  font-family: "Patrick Hand", cursive;
 }
 
 button:hover {
@@ -162,4 +168,55 @@ textarea {
 
 #vocabularyTable {
   margin-top: 20px;
+}
+
+/*switch button*/
+/* Container switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 24px;
+}
+
+/* Ẩn checkbox thực */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Phần slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px; /* Bo tròn switch */
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%; /* Bo tròn nút di chuyển */
+}
+
+/* Khi checkbox được chọn, chuyển màu cho switch */
+input:checked + .slider {
+  background-color: #0022ff;
+}
+
+/* Khi checkbox được chọn, di chuyển nút */
+input:checked + .slider:before {
+  transform: translateX(17px);
 }
