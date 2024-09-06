@@ -136,8 +136,11 @@
         <td>${entry.meaning}</td>
         <td>${entry.example}</td>
         <td>
-          <input type="checkbox" ${entry.learned ? "checked" : ""} 
-                 onchange="toggleLearned(${index})" />
+          <label class="switch">
+            <input type="checkbox" ${entry.learned ? "checked" : ""} 
+               onchange="toggleLearned(${index})" />
+            <span class="slider"></span>
+          </label>
         </td>
         <td><button class="delete-btn" onclick="deleteWord(${index})">Delete</button></td>
       `;
