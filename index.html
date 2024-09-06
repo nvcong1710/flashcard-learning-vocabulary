@@ -8,6 +8,10 @@
   </head>
   <body>
     <button onclick="navigateToAddData()">Thêm data</button>
+    <div style="display: flex">
+      <label for="showLearned">Hiển thị từ đã học</label>
+      <input type="checkbox" id="showLearned" onclick="toggleShowLearned()" />
+    </div>
 
     <div class="flash-card" onclick="toggleFlip()">
       <div class="card-inner">
@@ -30,7 +34,13 @@
         </div>
       </div>
     </div>
-    <button onclick="displayRandomWord()">Hiển thị từ ngẫu nhiên</button>
+    <div style="display: flex">
+      <button style="flex: 1" onclick="markAsLearned()">Đánh dấu đã học</button>
+      <div style="width: 10px"></div>
+      <button style="flex: 1" onclick="displayRandomWord()">
+        Hiển thị từ ngẫu nhiên
+      </button>
+    </div>
 
     <script src="index.js"></script>
     <script>
