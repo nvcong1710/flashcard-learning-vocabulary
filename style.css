@@ -3,15 +3,13 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
   background-color: #84b681;
   font-family: "Patrick Hand", cursive;
-  width: 400px;
   margin: auto;
   font-size: 1.1rem;
 }
 
-#word {
+p#word {
   font-weight: bold;
   font-size: larger;
 }
@@ -91,8 +89,6 @@ button:hover {
 
 table {
   width: 100%;
-  max-width: 700px;
-
   border-collapse: collapse;
   background-color: #fff;
   border-radius: 5px;
@@ -156,6 +152,7 @@ textarea {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 100%;
   box-sizing: border-box;
+  font-family: "Patrick Hand", cursive;
 }
 
 input[type="text"] {
@@ -170,8 +167,6 @@ textarea {
   margin-top: 20px;
 }
 
-/*switch button*/
-/* Container switch */
 .switch {
   position: relative;
   display: inline-block;
@@ -180,14 +175,12 @@ textarea {
   margin-left: 10px;
 }
 
-/* Ẩn checkbox thực */
 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-/* Phần slider */
 .slider {
   position: absolute;
   cursor: pointer;
@@ -197,7 +190,7 @@ textarea {
   bottom: 0;
   background-color: #ccc;
   transition: 0.4s;
-  border-radius: 34px; /* Bo tròn switch */
+  border-radius: 34px;
 }
 
 .slider:before {
@@ -209,15 +202,39 @@ textarea {
   bottom: 2px;
   background-color: white;
   transition: 0.4s;
-  border-radius: 50%; /* Bo tròn nút di chuyển */
+  border-radius: 50%;
 }
 
-/* Khi checkbox được chọn, chuyển màu cho switch */
 input:checked + .slider {
   background-color: #0022ff;
 }
 
-/* Khi checkbox được chọn, di chuyển nút */
 input:checked + .slider:before {
   transform: translateX(17px);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* align-items: flex-end; */
+  gap: 10px;
+}
+
+.column5 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 50%;
+  box-sizing: border-box;
+}
+
+#uploadFile {
+  background-color: white;
+  height: 100px;
+  flex-grow: 1;
+  padding: 15px;
+  box-sizing: border-box;
+  width: 100%;
+  align-content: center;
 }
