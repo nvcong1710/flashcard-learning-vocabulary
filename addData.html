@@ -16,28 +16,35 @@
   <body>
     <button
       onclick="navigateToFlashCardPage()"
-      style="background-color: brown; margin-bottom: 20px"
+      style="background-color: brown; margin-bottom: 20px; width: 100%"
     >
       Đi đến trang tạo flash-card
     </button>
-    <!-- Form thêm từ -->
-    <form id="vocabularyForm">
-      <div style="display: flex">
-        <input type="text" id="word" placeholder="Word" required />
-        <input type="text" id="meaning" placeholder="Meaning" required />
-      </div>
-
-      <textarea id="example" placeholder="Example" rows="4" required></textarea>
-      <button type="submit">Thêm</button>
-    </form>
-    <!-- <div id="status"></div> -->
 
     <div class="row">
+      <div class="column5">
+        <!-- Form thêm từ -->
+        <form id="vocabularyForm">
+          <div style="display: flex">
+            <input type="text" id="word" placeholder="Word" required />
+            <input type="text" id="meaning" placeholder="Meaning" required />
+          </div>
+
+          <textarea
+            id="example"
+            placeholder="Example"
+            rows="4"
+            required
+          ></textarea>
+          <button type="submit">Thêm</button>
+        </form>
+        <!-- <div id="status"></div> -->
+      </div>
+
       <div class="column5">
         <!-- Upload file json -->
         <input type="file" id="uploadFile" accept=".json" />
         <button id="loadToCache" onclick="uploadData()">Load vào cache</button>
-        <button onclick="downloadJson()">Tải dữ liệu xuống</button>
       </div>
 
       <div class="column5">
@@ -62,6 +69,7 @@
         <button onclick="generateJSON()">Thêm</button>
       </div>
     </div>
+    <button onclick="downloadJson()">Tải dữ liệu xuống</button>
     <!-- Bảng dữ liệu -->
     <table id="vocabularyTable">
       <thead>
