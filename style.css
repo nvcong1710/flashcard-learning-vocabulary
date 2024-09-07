@@ -7,7 +7,7 @@ body {
   font-family: "Patrick Hand", cursive;
   margin: auto;
   height: 100vh;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 p#word {
@@ -41,7 +41,6 @@ p#word {
   height: 100%;
   backface-visibility: hidden;
   display: grid;
-  justify-content: center;
   align-items: center;
   font-size: 1.2em;
   box-shadow: 8px 8px 0px rgb(214, 255, 8);
@@ -50,6 +49,7 @@ p#word {
 
 .card-front {
   background-color: #ffffff;
+  justify-content: center;
 }
 
 .card-back {
@@ -69,20 +69,19 @@ p {
 button {
   padding: 10px 20px;
   font-size: 1em;
-  cursor: pointer;
   width: 100%;
   align-self: center;
   text-transform: uppercase;
-  background-color: #007bff;
+  background-color: #228cfd;
   color: #fff;
-  border: none;
   border-radius: 30px;
-  margin: 10px 0;
+  margin: 15px 0 0 0;
   font-family: "Patrick Hand", cursive;
+  box-shadow: 2px 2px 1px #000000;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #db006b;
 }
 
 #meaning,
@@ -92,10 +91,10 @@ button:hover {
 
 table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate;
   background-color: #fff;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 5px #000000;
 }
 
 th,
@@ -106,7 +105,7 @@ td {
 }
 
 th {
-  background-color: #cdff70;
+  background-color: #9bd82a;
   color: #000000;
   font-weight: normal;
 }
@@ -130,7 +129,7 @@ pre {
   background-color: #f5f5f5;
   padding: 10px;
   border-radius: 5px;
-  font-size: 0.9em;
+  font-size: 1em;
   max-height: 300px;
   overflow-y: auto;
 }
@@ -222,7 +221,7 @@ input:checked + .slider:before {
   display: flex;
   flex-direction: column;
   flex: 1;
-  max-width: 50%;
+  /* max-width: 50%; */
   box-sizing: border-box;
 }
 
@@ -238,4 +237,33 @@ input:checked + .slider:before {
 
 textarea#example {
   height: 100%;
+}
+
+/* responsive */
+@media (max-width: 700px) {
+  body {
+    display: block;
+    padding: 10px;
+  }
+
+  .flash-card {
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+  }
+  button {
+    font-size: 14px;
+  }
+
+  .row {
+    display: block;
+  }
+  .table-responsive {
+    width: 100%;
+    overflow-x: auto;
+  }
+  th,
+  td {
+    padding: 5px;
+  }
 }

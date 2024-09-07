@@ -53,7 +53,8 @@
           <thead>
             <tr>
               <th>
-                Copy->paste dữ liệu bảng vào đây (từ tiếng anh - nghĩa - ví dụ)
+                Copy->paste dữ liệu bảng vào đây<br />
+                <u>(từ tiếng anh - nghĩa - ví dụ)</u>
               </th>
             </tr>
           </thead>
@@ -71,18 +72,20 @@
     </div>
     <button onclick="downloadJson()">Tải dữ liệu xuống</button>
     <!-- Bảng dữ liệu -->
-    <table id="vocabularyTable">
-      <thead>
-        <tr>
-          <th>Word</th>
-          <th>Meaning</th>
-          <th>Example</th>
-          <th>Learned</th>
-          <th>Action</th>
-        </tr>
-      </thead>
-      <tbody id="tableBody"></tbody>
-    </table>
+    <div class="table-responsive">
+      <table id="vocabularyTable">
+        <thead>
+          <tr>
+            <th style="width: 100px">Word</th>
+            <th>Meaning</th>
+            <th>Example</th>
+            <th>Learned</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
 
     <script>
       function generateJSON() {
