@@ -18,7 +18,7 @@
       <label for="showLearned">Hiển thị từ đã học</label>
       <div style="width: 20px"></div>
       <label class="switch">
-        <input type="checkbox" id="showLearned" onclick="toggleShowLearned()" />
+        <input type="checkbox" id="showLearned" />
         <span class="slider"></span>
       </label>
     </div>
@@ -44,7 +44,7 @@
         </div>
       </div>
     </div>
-    <div style="display: flex">
+    <div style="display: flex; margin-top: 20px">
       <button style="flex: 1" onclick="markAsLearned()">Đánh dấu đã học</button>
       <div style="width: 10px"></div>
       <button style="flex: 1" onclick="displayRandomWord()">Random</button>

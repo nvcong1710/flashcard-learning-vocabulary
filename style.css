@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #84b681;
+  background-color: #8ad1cf;
   font-family: "Patrick Hand", cursive;
   margin: auto;
   height: 100vh;
@@ -75,13 +75,13 @@ button {
   background-color: #228cfd;
   color: #fff;
   border-radius: 30px;
-  margin: 15px 0 0 0;
+  margin: 10px 0 15px 0;
   font-family: "Patrick Hand", cursive;
   box-shadow: 2px 2px 1px #000000;
 }
 
 button:hover {
-  background-color: #db006b;
+  background-color: #00db21;
 }
 
 #meaning,
@@ -92,7 +92,7 @@ button:hover {
 table {
   width: 100%;
   border-collapse: separate;
-  background-color: #fff;
+  background-color: #c0ff9e;
   border-radius: 5px;
   box-shadow: 5px 5px 5px #000000;
 }
@@ -101,7 +101,6 @@ th,
 td {
   padding: 15px;
   text-align: left;
-  border-bottom: 1px solid #ddd;
 }
 
 th {
@@ -265,5 +264,8 @@ textarea#example {
   th,
   td {
     padding: 5px;
+  }
+  .card-inner {
+    margin-top: 20px;
   }
 }
