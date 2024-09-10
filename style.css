@@ -268,4 +268,7 @@ textarea#example {
   .card-inner {
     margin-top: 20px;
   }
+  .paste-table {
+    display: none;
+  }
 }
